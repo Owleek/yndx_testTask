@@ -1,0 +1,37 @@
+:root {
+
+    /* ---> sizes */
+    --desctopWidth: 1366;
+    --desctopMargin: 72;
+
+    --mobileWidth: 375;
+    --mobileMargin: 20;
+
+    --layoutWidth: calc(var(--desctopWidth) * 1px);
+    --layoutMargin: calc(var(--desctopMargin) * 1px);
+    /* <--- sizes */
+
+
+    /* ---> colors */
+    --redColor: #F54932;
+    --blueColor: #3057A2;
+    --whiteColor: #FFFFFF;
+    --blackColor: #1F1F1F;
+    --yellowColor: #FBCE51;
+
+    --textColor: #313131;
+    --logoColor: #595653;
+    /* <--- colors */
+}
+
+.layout {
+    max-width: var(--layoutWidth);
+    padding: 0 var(--layoutMargin);
+    margin: 0 auto;
+}
+
+html {
+  font-size: 20px;
+  color: var(--textColor);
+}
+
